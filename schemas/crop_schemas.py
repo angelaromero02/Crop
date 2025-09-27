@@ -8,5 +8,6 @@ class CropData(BaseModel):
     humidity: float
     ph: float
     rainfall: float
+    model_choice: str = "rf"
     
 
